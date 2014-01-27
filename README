@@ -1,0 +1,4 @@
+Simple script to make incremental backups to removable media or local directory.
+It uses rsync and cp --link, so target filesystem must support hardlinks.
+
+The main idea from http://habrahabr.ru/post/51419/
